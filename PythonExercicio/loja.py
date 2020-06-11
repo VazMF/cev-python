@@ -11,14 +11,14 @@ else:
         if mes in (1, 2, 3, 4, 5, 6):
             if mes % 2 == 0:
                 parcela = preco / 2
-                print(f'{nome} pode parcelar a compra de R${preco:.2f} em 2x de {parcela:.2f}')
-        else:
-            parcela = preco / 3
-            print(f'{nome} pode parcelar a compra de R${preco:.2f} em 3x de R${parcela:.2f}')
-    if mes in (7, 8, 9, 10, 11, 12):
+                print(f'{nome} pode parcelar a compra de R${preco:.2f} em 2x de R${parcela:.2f}')
+        if mes in (7, 8, 9, 10, 11, 12):
             if mes % 2 == 0:
                 parcela = preco / 3
                 print(f'{nome} pode parcelar a compra de R${preco:.2f} em 3x de R${parcela:.2f}')
-    else:
-        parcela = preco / 2
-        print(f'{nome} pode parcelar a compra de R${preco:.2f} em 2x de {parcela:2f}.')
+            else:
+                parcela = preco / 2
+                print(f'{nome} pode parcelar a compra de R${preco:.2f} em 2x de {parcela:2f}.')
+        else:
+            parcela = preco / 3
+            print(f'{nome} pode parcelar a compra de R${preco:.2f} em 3x de R${parcela:.2f}')
