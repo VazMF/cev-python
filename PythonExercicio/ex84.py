@@ -6,7 +6,7 @@ pessoas = 0
 pesados = list()
 leves = list()
 while True:
-    print('------------------------------------------')
+    print('-----------------------------------------')
     dados.append(str(input('Nome: ')))
     dados.append(int(input('Peso: ')))
     cadastros.append(dados[:])
@@ -18,9 +18,9 @@ while True:
         print('\033[31m[ERROR] Digite SIM ou NÃO.\033[m')
         res = str(input('Deseja cadastrar mais pessoas? [S/N] ')).strip().upper()[0]
     if res == 'N':
-        print('------------------------------------------')
         print('FINALIZANDO...')
-        sleep(2)
+        sleep(3)
+        print('----------------RESULTADO----------------')
         for i in cadastros:
             if i[1] >= 100:
                 pesados.append(i[0])
@@ -30,3 +30,5 @@ while True:
         print(f'As pessoas mais pesadas são: {pesados}')
         print(f'As pessoas mais leves são: {leves}')
         break
+print('-----------------------------------------')
+print('Obrigado por utilizar o nosso programa :)')
