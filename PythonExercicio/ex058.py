@@ -13,7 +13,7 @@ while not acertou: #enquanto o ngm tiver acertado
     else: #caso contrario
         if jogador < comp: #se a respota do jogador for menor que a do computador
             print('Mais... Tente novamente.') #printa para ele chutar um numero maior
-        elif jogador > comp #se a respota do jogador for maior que a do computador
+        elif jogador > comp: #se a respota do jogador for maior que a do computador
             print('Menos... Tente novamente.') #printa para ele chutar um numero menor
     tentativas += 1 #adiciona uma tentativa a cada jogada, ate o jogador acertar
 print('\033[33mParabéns!\033[m Eu realmente pensei no número {}.'.format(comp))

@@ -1,6 +1,6 @@
 #Elabore um programa que calcule o valor a ser pago por um produto. considerando seu preço normal e condição de pagamento.
 #à vista/dinheiro/cheque = 10% de desconto; à vista no cartão 5% de desconto; em até 2x no cartão preço normal; 3x ou mais no cartão = 20% de juros.
-print('\033[31m===CALCULANDO PREÇO===\033[m') #titúlo
+print('\033[31m===================CALCULANDO PREÇO===================\033[m') #titúlo
 preço = float(input('Preço das compras: R$')) #pede o preço do produto
 print('''FORMAS DE PAGAMENTO
 [ 1 ] à vista dinheiro/cheque
@@ -25,4 +25,4 @@ else:
     total = preço
     print('\033[31mOPÇÃO INVÁLIDA DE PAGAMENTO. TENTE NOVAMENTE.\033[m')
 print('Sua compra de \033[35mR${:.2f}\033[m vai custar \033[35mR${:.2f}\033[m no final.'.format(preço, total))
-print('\033[31m=\033[m' * 22) #fim
+print('\033[31m=\033[m' * 56) #fim

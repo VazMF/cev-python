@@ -6,11 +6,11 @@ n1 = int(input('Primeiro valor: ')) #lê o primeiro valor
 n2 = int(input('Segundo valor: ')) #lê o segundo valor
 opcao = 0 #determina a opção como 0
 while opcao != 5: #determina que enquanto a opção for diferente de 5 o while vai acontecer
-    print('''\033[35m    [ 1 ] SOMAR #
-    [ 2 ] MULTIPLICAR
-    [ 3 ] MOSTRAR O MAIOR
-    [ 4 ] DIGITAR NOVOS NÚMEROS
-    [ 5 ] SAIR DO PROGRAMA\033[m''') #menu de opções para os números
+    print('''\033[35m[ 1 ] SOMAR
+[ 2 ] MULTIPLICAR
+[ 3 ] MOSTRAR O MAIOR
+[ 4 ] DIGITAR NOVOS NÚMEROS
+[ 5 ] SAIR DO PROGRAMA\033[m''') #menu de opções para os números
     opcao = int(input('Qual é a sua opção? ')) #pergunta qual opção quer executar
     if opcao == 1: #se a oapção escolhida for 1
         soma = n1 + n2 #vai somar n1 com n2
@@ -21,9 +21,12 @@ while opcao != 5: #determina que enquanto a opção for diferente de 5 o while v
     elif opcao == 3: #se a opção for 3
         if n1 > n2: #supoe que se n1 for maior que n2
             maior = n1 #o maior será n1
+            print('Entre {} e {} o maior valor é {}.'.format(n1, n2, maior))  # mostra o resultado
         elif n2 > n1: #se o maior for n2
             maior = n2 #a variavél maior será alterado para n2
-        print('Entre {} e {} o maior valor é {}.'.format(n1, n2, maior)) #mostra o resultado
+            print('Entre {} e {} o maior valor é {}.'.format(n1, n2, maior))  # mostra o resultado
+        else:
+            print('Os dois números são iguais.')
     elif opcao == 4: #se a opção escolhida for 4
         print('Infome os números novamente: ') #pede para digitar os valores novamente
         n1 = int(input('Primeiro valor: ')) #primeiro valor
@@ -33,5 +36,5 @@ while opcao != 5: #determina que enquanto a opção for diferente de 5 o while v
     else: #se o número digitado na opção não for nenhum dos definidos
         print('Opção inválida. Tente novamente.') #erro
     print('\033[35m=-=\033[m' * 10)
-    sleep(2) #sleep para o programa dormir por dois segundos antes do while acontecer novamente
+    sleep(1) #sleep para o programa dormir antes do while acontecer novamente
 print('Fim do programa, volte sempre!') #mensagem de fim
