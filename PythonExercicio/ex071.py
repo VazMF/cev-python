@@ -13,7 +13,7 @@ while True:
         totced += 1
     else:
         if totced > 0:
-            print(f'Total de cédulas {totced} de R${ced}')
+            print(f'Total de cédulas: {totced} de R${ced}')
         if ced == 50:
             ced = 20
         elif ced == 20:
@@ -24,4 +24,4 @@ while True:
         if total == 0:
             break
 print('=' * 30)
-print('Volte sempre e tenha um bom dia!')
+print('Volte sempre e tenha um BOM DIA!')

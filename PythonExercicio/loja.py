@@ -6,8 +6,7 @@ parcela = 0
 if preco < 699:
     print(f'{nome}, valor a pagar R${preco}.')
 else:
-    if mes > 12:
-        print('Mês inválido.')
+    if mes < 12:
         if mes in (1, 2, 3, 4, 5, 6):
             if mes % 2 == 0:
                 parcela = preco / 2
@@ -22,3 +21,5 @@ else:
         else:
             parcela = preco / 3
             print(f'{nome} pode parcelar a compra de R${preco:.2f} em 3x de R${parcela:.2f}')
+    else:
+        print('Mês inválido.')
