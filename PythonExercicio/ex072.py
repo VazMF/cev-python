@@ -9,5 +9,5 @@ contagem = ('zero', 'um', 'dois', 'três', 'quatro',
             'dezenove', 'vinte' )
 num = int(input('Digite um número de 0 a 20: '))
 while num < 0 or num > 20:
-    num = int(input('Tente novamente. Digite um número de 0 a 20: '))
-print(f'Você digitou o número {(contagem[num])}.')
+    num = int(input('ERRO. Digite um número de 0 a 20: '))
+print(f'Você digitou o número {(contagem[num].upper())}.')
