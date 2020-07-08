@@ -1,6 +1,6 @@
 #crie um programa que tenha uma tupla com várias palavras (não usar acentos). depois disso, você dever mostrar para cada palavra, quais são as sua vogais.
 print('-' * 40)
-print('{:^40}'.format('CONTADOR DE VOGAIS'))
+print(f'{"CONTADOR DE VOGAIS":^40}')
 print('-' * 40)
 palavras = ('aprender', 'programar', 'linguagem', 'python',
             'curso', 'gratis', 'estudar', 'praticar',
