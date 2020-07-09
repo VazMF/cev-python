@@ -1,6 +1,6 @@
 #Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os e uma lista. Caso o número já exista, não será adicionado. Exibir os valores em ordem crescente.
 print('-' * 40)
-print('{:^40}'.format('ORDENADOR CRESCENTE'))
+print(f'{"ORDENADOR CRESCENTE":^40}')
 print('-' * 40)
 lista = list()
 while True:

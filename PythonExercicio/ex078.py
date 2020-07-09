@@ -1,6 +1,6 @@
 #Faça um programa que leia 5 valores e guarde-os em uma lista. No final mostre qual foi o maior e o menor valor digitado e suas posições
 print('-' * 40)
-print('{:^40}'.format('MAIOR E MENOR NA LISTA'))
+print(f'{"MAIOR E MENOR NA LISTA":^40}')
 print('-' * 40)
 lista = list()
 maior = []
@@ -16,4 +16,3 @@ for indice, valores in enumerate(lista):
 print('-' * 40)
 print(f'O maior valor digitado foi {max(lista)}, na posição {maior}')
 print(f'O menor valor digitado foi {min(lista)}, na posição {menor}')
-
