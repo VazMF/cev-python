@@ -3,9 +3,9 @@ from time import sleep
 cadastros = list()
 dados = list()
 maior = menor = 0
+print('-' * 45)
+print(f'{"ANALISADOR DE PESOS":^45}')
 while True:
-    print('-' * 45)
-    print(f'{"FIXA":^45}')
     print('-' * 45)
     dados.append(str(input('Nome: ')))
     dados.append(float(input('Peso: ')))
@@ -14,7 +14,7 @@ while True:
     else:
         if dados[1] > maior:
             maior = dados[1]
-        elif dados[1] < menor:
+        if dados[1] < menor:
             menor = dados[1]
     cadastros.append(dados[:])
     dados.clear()
@@ -30,12 +30,12 @@ while True:
         print(f'{"RESULTADO":^45}')
         print('-' * 45)
         print(f'Foram cadastradas \033[32m{len(cadastros)}\033[m pessoas.')
-        print(f'O maior peso foi \033[32m{maior} kg\033[m. Peso de ', end='')
+        print(f'O maior peso foi \033[32m{maior}kg\033[m. Peso de ', end='')
         for p in cadastros:
             if p[1] == maior:
                 print(f'[{p[0]}] ', end='')
         print()
-        print(f'O menor peso foi \033[32m{menor} kg\033[m. Peso de ', end='')
+        print(f'O menor peso foi \033[32m{menor}kg\033[m. Peso de ', end='')
         for p in cadastros:
             if p[1] == menor:
                 print(f'[{p[0]}] ', end='')

@@ -1,5 +1,5 @@
 #crie um programa onde o usuário possa digitar 7 valores númericos e cadastre-os em uma lista única que mantenha separados os valores pares e impares. Mostre os valores em ordem cresc
-numeros = [[], []] #declaracao da lista com dois indices
+numeros = [[], []] #declaracao da lista com duas listas internas
 print('-' * 40)
 print('{:^40}'.format('PAR E IMPAR')) #titulo
 print('-' * 40)
