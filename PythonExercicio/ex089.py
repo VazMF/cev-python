@@ -12,6 +12,7 @@ while True:
     ficha.append([nome, [nota1, nota2], media])
     resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     print('-' * 60)
+    
     while resp not in 'SN':
         print('\033[31m!ERRO! DIGITE SIM OU NÃO.\033[m')
         resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
@@ -23,7 +24,7 @@ for i, a in enumerate(ficha):
     print(f'{i:<4}{a[0]:<10}{a[2]:8.1f}')
 while True:
     print('-' * 60)
-    opc = int(input('Quer mostrar as notas de qual aluno? [999 para parar] '))
+    opc = int(input('Quer mostrar as notas de qual aluno? [999 para parar]: '))
     print('-' * 60)
     if opc == 999:
         break
