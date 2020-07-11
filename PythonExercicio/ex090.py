@@ -3,13 +3,16 @@
 print('-' * 35)
 print(f'{"APROVADO OU REPROVADO":^35}')
 print('-' * 35)
-nome = str(input('Nome do aluno(a): '))
-media = float(input(f'Média de {nome}: '))
-s = {'situacao': '\033[32mAPROVADO(A)\033[m'}
-if media < 7:
-    s['situacao'] = '\033[31mREPROVADO(A)\033[m'
+aluno = dict()
+aluno['nome'] = str(input('Nome do aluno(a): '))
+aluno['media'] = float(input(f'Média de {aluno["nome"]}: '))
+if aluno['media'] >= 7:
+    aluno['situacao'] = '\033[32mAPROVADO(A)\033[m'
+elif 5<= aluno['media'] < 7:
+    aluno['situacao'] = '\033[33mRECUPERAÇÃO\033[m'
+else:
+    aluno['situacao'] = '\033[31mREPOVADO(A)\033[m'
 print('-' * 35)
-print(f'Nome: {nome}')
-print(f'Média: {media}')
-print(f'Situação: {s["situacao"]}')
+for k, v in aluno.items():
+    print(f'{k}: {v}')
 print('-' * 35)
