@@ -3,7 +3,6 @@
 from random import randint
 from time import sleep
 from operator import itemgetter
-
 print('-' * 30)
 print(f'{"JOGO DOS DADOS":^30}')
 print('-' * 30)
