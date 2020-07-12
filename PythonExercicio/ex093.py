@@ -6,13 +6,13 @@ print(f'{"CADASTRO JOGADOR DE FUTEBOL":^45}')
 print('-' * 45)
 dic = dict()
 gols = 0
-dic['nome'] = str(input('Nome: '))
-dic['part'] = int(input(f'Quantas partidas {dic["nome"]} jogou? '))
+dic['nome'] = str(input('Nome do jogador: '))
+dic['partidas'] = int(input(f'Quantas partidas {dic["nome"]} jogou? '))
 for c in range(0, dic['part']):
     dic['qtd_gols'] = int(input(f'Quantos gols {dic["nome"]} fez na {c+1}° partida? '))
     gols += dic['qtd_gols']
 print('-' * 45)
-print(f'Jogador: {dic["nome"]}')
-print(f'Partidas jogadas: {dic["part"]}')
-print(f'Total de Gols: {gols}')
+print(dic)
 print('-' * 45)
+for k, v in dic.items():
+    print(f'O campo {k.upper()} tem o valor {v}')

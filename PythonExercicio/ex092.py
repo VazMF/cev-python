@@ -3,19 +3,19 @@
 #o salário. Calcule e acrescente, além da idade, com quantos anos a pessoa irá se aposentar. 35 anos de contribuicao
 from datetime import date
 ano = date.today().year
-print('-' * 40)
-print(f'{"CADASTRO DE TRABALHADOR":^40}')
-print(f'-' * 40)
-dic = dict()
-dic['nome'] = str(input('Nome: '))
-dic['nasc'] = int(input('Ano de nascimento: '))
-dic['ctps'] = int(input('Carteira de Trabalho (0 se não tem): '))
-dic['idade'] = ano - dic['nasc']
-if dic['ctps'] != 0:
-    dic['ano_contr'] = int(input('Ano de contratação: '))
-    dic['salario'] = float(input('Salário: R$'))
-    dic['apos'] = (dic['ano_contr'] + 35) - dic['nasc']
-print('-' * 40)
-for k, v in dic.items():
-    print(f'{k.upper()}: {v}')
-print('-' * 40)
+print('-' * 45)
+print(f'{"CADASTRO DE TRABALHADOR":^45}')
+print(f'-' * 45)
+dados = dict()
+dados['nome'] = str(input('Nome: '))
+nasc = int(input('Ano de nascimento: '))
+dados['idade'] = date.today().year - nasc
+dados['ctps'] = int(input('Carteira de trabalho [0 se não tem]: '))
+if dados['ctps'] != 0:
+    dados['contratação'] = int(input('Ano de contratação: '))
+    dados['salário'] = float(input('Salário: R$'))
+    dados['aposentadoria'] = dados['idade'] + ((dados['contratação'] + 35) - date.today().year)
+print('-' * 45)
+for k, v in dados.items():
+    print(f'-> {k.upper()}: {v}')
+print('-' * 45)
