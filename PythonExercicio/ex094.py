@@ -4,6 +4,9 @@
 galera = list()
 pessoa = dict()
 soma = 0
+print('-' * 40)
+print(f'{"CADASTRO DE PESSOAS":^40}')
+print('-' * 40)
 while True:
     pessoa['nome'] = str(input('Nome: '))
     while True:
@@ -22,17 +25,17 @@ while True:
         print('\033[31mERRO! Responda apenas S ou N.\033[m')
     if resp == 'N':
         break
-print(f'Ao todo foram cadastradas {len(galera)} pessoas.')
-print(f'A média de idade do grupo é {soma/len(galera):5.1f} anos.')
+print(f'Ao todo foram cadastradas \033[34m{len(galera)}\033[m pessoas.')
+print(f'A média de idade do grupo é \033[34m{soma/len(galera):5.1f}\033[m anos.')
 print(f'As mulheres cadastradas foram ', end='')
 for p in galera:
     if p['sexo'] == 'F':
-        print(f'[{p["nome"]}] ', end='')
+        print(f'\033[34m[{p["nome"]}]\033[m ', end='')
 print()
 print('Pessoas que estão acima da média de idade: ')
 for p in galera:
     if p['idade'] > soma/len(galera):
         for k, v in p.items():
-            print(f'{k} = {v}; ', end='')
+            print(f'{k} = \033[34m{v};\033[m ', end='')
         print()
 print('<< ENCERRADO >>')
