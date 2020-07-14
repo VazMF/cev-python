@@ -2,22 +2,22 @@
 from random import randint
 from time import sleep
 print('\033[31m-=\033[m' * 11)
-itens = ('Pedra', 'Papel', 'Tesoura')
-computador = randint(0, 2)
+itens = ('Pedra', 'Papel', 'Tesoura') #tupla armazenando as opcoes
+computador = randint(0, 2) #computador randomiza um numero de 0 a 2
 print('''Suas opções:
 \033[33m[ 0 ]\033[m PEDRA
 \033[31m[ 1 ]\033[m PAPEL
-\033[33m[ 2 ]\033[m TESOURA''')
-jogador = int(input('Qual é a sua jogada? '))
-print('\033[33mJO\033[m')
+\033[33m[ 2 ]\033[m TESOURA''') #print menu de opcoes
+jogador = int(input('Qual é a sua jogada? ')) #variavel jogador recebe a opcao do menu
+print('\033[33mJO\033[m') #print bonitinho do jokenpo
 sleep(1)
 print('\033[31mKEN\033[m')
 sleep(1)
 print('\033[33mPÔ!!!\033[m')
 sleep(1)
 print('\033[31m-=\033[m' * 11)
-print('Computador jogou {}'.format(itens[computador]))
-print('Jogador jogou {}'.format(itens[jogador]))
+print(f'Computador jogou {itens[computador]}') #print fromatado com a escolha do computador
+print(f'Jogador jogou {itens[jogador]}') #print formatado com a escolha do jogador
 print('\033[33m-=\033[m' * 11)
 if computador == 0: #se computador jogou pedra
     if jogador == 0:
