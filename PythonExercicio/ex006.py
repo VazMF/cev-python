@@ -1,12 +1,13 @@
 #crie um algoritimo que leia um número e mostre seu dobro, triplo e raiz quadrada
 #operadores aritimetcios, aula 07
 from time import sleep #importando sleep
-print('\033[1;31m---DORBRO, TRIPLO E RAIZ---\033[m') #titulo
-n = int(input('Insira um número: ' )) #pedindo o input do número
-print('\033[34mPROCESSANDO...\033[m')
-sleep(1)
-print('\033[30mO DOBRO É\033[m: \033[31m{}\033[m'.format(n * 2)) #dobrando o número inserido
-print('\033[30mO TRIPLO É\033[m: \033[31m{}\033[m'.format(n * 3)) #triplicando o número inserido
-print('\033[30mA RAIZ QUADRADA É\033[m: \033[31m{:.1f}\033[m'.format(n ** 1/2)) #achando a raiz do número inserido
+from math import sqrt #importando a funcao pra calcular a raiz quadrada
+print('\033[34m---DORBRO, TRIPLO E RAIZ---\033[m') #titulo
+n = int(input('Insira um número: ' )) #pedindo o input do número para a variavel n
+print('\033[34mPROCESSANDO...\033[m') #printo do processamento para simular loading
+sleep(1) #sleep de 1s
+print(f'O DOBRO É: \033[34m{n * 2}\033[m') #dobrando o número inserido
+print(f'O TRIPLO É: \033[34m{n * 3}\033[m') #triplicando o número inserido
+print(f'A RAIZ QUADRADA É: \033[34m{sqrt(n):.1f}\033[m') #achando a raiz do número inserido
 
 
