@@ -6,5 +6,5 @@ for c in range(1, 7): #repita de 1 ate 7
     if num % 2 == 0: #se o numero for par
         soma += num #soma recebe soma mais num
         cont += 1 #cont recebe cont mais um
-print(f'Você informou {cont} números PARES e a soma foi {soma}.')
+print(f'Você informou {cont} números PARES e a soma foi {soma}.') #print formatado com o resultado
 print('\033[31m-=-\033[m' * 6)
