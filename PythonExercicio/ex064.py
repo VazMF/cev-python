@@ -6,4 +6,4 @@ while n != 999: #enquanto o numero for diferente de 999 faça:
     cont += 1 #some mais um ao contador
     soma += n #some o numero a variavel soma
     n = int(input('Digite um número [999 para parar]: ')) #pede outro número
-print('Foram digitados {} números e a soma entre eles é {}.'.format(cont, soma)) #resultado
+print(f'Foram digitados {cont} números e a soma entre eles é {soma}.') #resultado

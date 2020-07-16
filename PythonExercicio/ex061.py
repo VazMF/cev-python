@@ -5,7 +5,7 @@ razao = int(input('Razão da PA: ')) #input da razão (de quantos em quantos nú
 termo = primeiro #define termo como o número do input
 cont = 1 #define contador como 1
 while cont <= 10: #enquanto o contador for menor ou igual a 10
-    print('{} \033[35m->\033[m '.format(termo), end='') #começo da pa
+    print(f'{termo} \033[35m->\033[m ', end='') #print formatado da com o termo da PA e a uma ->
     termo += razao #termo muda para a soma do termo com a razão
     cont += 1 #contador ganha mais um
 print('FIM')
