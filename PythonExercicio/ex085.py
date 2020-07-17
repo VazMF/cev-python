@@ -4,7 +4,7 @@ print('-' * 40)
 print('{:^40}'.format('PAR E IMPAR')) #titulo
 print('-' * 40)
 for c in range(1, 8): #repeticao para ler os sete numeros
-    n = int(input(f'Digite o {c}o número: ')) #input do numero
+    n = int(input(f'Digite o {c}° número: ')) #input do numero
     if n % 2 == 0: #se o numero for par
         numeros[0].append(n) #append no primeiro indice da lsta numeros
     else: #senao
