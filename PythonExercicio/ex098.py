@@ -14,12 +14,12 @@ def contador(i, f, p): #define a função com 3 parâmetros: inicio, fim, passo
         while cont <= f: #enquanto o contador for menor ou igual ao fim
             print(f'{cont} ', end='', flush = True) #print formatado da contagem, sem pular linha e printando numero por numero com o flush
             sleep(0.3) #sleep para printar um numero de cada vez
-            cont += p #contador o passo
+            cont += p #contador recebe o passo
         print('FIM!') #print de fim
     else: #senao se o inicio for maior que o fim
         cont = i #contador recebe inicio
         while cont >= f: #enquanto o contador for maior ou igual ao fim
-            print(f'{cont} ', end='', flush = True) #print formatado com a contafem, sem pular linha e printando numero por numero com o flush
+            print(f'{cont} ', end='', flush = True) #print formatado com a contagem, sem pular linha e printando numero por numero com o flush
             sleep(0.3) #sleep para esperar antes de printar o prox numero
             cont -= p #contador vai diminuir o valor do passo
         print('FIM!') #print de fim

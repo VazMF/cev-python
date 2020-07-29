@@ -23,7 +23,8 @@ def somaPar(lista): #define outra função tb com o parâmetro lista
             
 
 #PROGRAMA PRINCIPAL
+print('~' * 35)
 numeros = list() #inicializa uma lista números
 sorteio(numeros) #chama a função sorteio dando a lista de numeros como parâmetro
 somaPar(numeros) #chama a função somaPar dando a lista de numeros como parâmetro
-
+print('~' * 35)
