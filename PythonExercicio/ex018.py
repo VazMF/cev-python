@@ -13,4 +13,3 @@ print('\033[32mSENO:\033[m {:.2f}'.format(seno)) #resultado do seno
 print('\033[32mCOSSENO:\033[m {:.2f}'.format(cos)) #resultado do cosseno
 print('\033[32mTANGENTE:\033[m {:.2f}'.format(tan)) #resultado da tangente
 print('\033[1;31m-\033[m' * 30)
-
