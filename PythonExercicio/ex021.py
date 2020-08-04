@@ -1,4 +1,4 @@
-#faça um programa que abra e reproduza um arquivo mp3
+#faça um programa que abra e reproduza um arquivo mp3 (nao esta funcionando)
 import pygame
 pygame.mixer.init()
 pygame.mixer.music.load('ex021.mp3')
