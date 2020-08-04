@@ -1,6 +1,6 @@
 #escreva um programa que leia um valor em metros e o exiba convertido em cm e em mm
 from time import sleep #sleep
-print('\033[31m---CONVERSOR---\033[m') #titúlo
+print('\033[31m----CONVERSOR DE MEDIDAS----\033[m') #titúlo
 m = int(input('Digite um valor em metros: ')) #input do valor em metros em uma variavel m
 print('\033[31mPROCESSANDO...\033[m') #print simulacao do processamento
 sleep(1) #sleep
