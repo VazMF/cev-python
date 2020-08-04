@@ -1,6 +1,6 @@
 #Crie um programa que leia o nome completo de uma pessoa e mostre: o nome com todas as letras maiúsculas, minúsculas, quantidade de letras sem considerar espaços, letras 1 nome.
 from time import sleep #import sleep
-print('\033[32m---ANALISANDO NOMES----\033[m') #titúlo
+print('\033[32m------------------ANALISANDO NOMES-------------------\033[m') #titúlo
 nome = str(input('Digite seu nome completo: ')).strip() #input do nome na variavel nome
 print('\033[32mANALISANDO...\033[m') #print para simular a analise
 sleep(1) #sleep
