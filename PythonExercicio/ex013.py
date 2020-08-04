@@ -1,5 +1,5 @@
-#faça um algoritimo que leia o salário de um funcionario e mostre seu novo salario com 15% de aumento
-print('\033[1;31m---------AUMENTO---------\033[m') #titúlo
+#faça um algoritmo que leia o salário de um funcionario e mostre seu novo salario com 15% de aumento
+print('\033[1;31m---------------REAJUSTE SALARIAL---------------\033[m') #titúlo
 sa = float(input('Digite o salário atual do funcionário: R$')) #input do salário atual do funcionário para a variavel sa
 a = (sa*15)/100 #calculando aumento sob o valor do input para a variavel a
 sn = sa + a #calculando o novo salário com o aumento
