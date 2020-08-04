@@ -11,5 +11,5 @@ lista = [a1, a2, a3, a4] #lista com todos os inputs
 escolhido = choice(lista) #comp escolhe um nome da lista
 print('\033[31mPROCESSANDO...\033[m')
 sleep(1)
-print('O aluno(a) escolhido para apagar o quadro foi \033[1;31m{}\033[m.'.format(escolhido)) #mostra o aluno escolhido
+print(f'O aluno(a) escolhido para apagar o quadro foi \033[1;31m{escolhido}\033[m.') #mostra o aluno escolhido
 print('\033[1;31m-\033[m' * 30)
