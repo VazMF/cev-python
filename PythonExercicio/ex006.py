@@ -9,5 +9,3 @@ sleep(1) #sleep de 1s
 print(f'O DOBRO É: \033[34m{n * 2}\033[m') #dobrando o número inserido
 print(f'O TRIPLO É: \033[34m{n * 3}\033[m') #triplicando o número inserido
 print(f'A RAIZ QUADRADA É: \033[34m{sqrt(n):.1f}\033[m') #achando a raiz do número inserido
-
-
