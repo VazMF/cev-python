@@ -1,7 +1,7 @@
 #faça um programa que leia algo pelo teclado e mostre na tela seu tipo primitivo e todas as informaçoes possiveis sobre ele
 #tipos primritivos e saidas de dados
 from time import sleep #importando a o sleep para a simulação de carregamento
-print('\033[31m---TIPOS PRIMITIVOS---\033[m') #titulo do programa em vermelho
+print('\033[31m----TIPOS PRIMITIVOS----\033[m') #titulo do programa em vermelho
 i1 = input('Digite algo: ') #variavel recebe o input da mensagem/número que será analisada
 print('\033[31mPROCESSANDO...\033[m') #simulação do carregamento
 sleep(1) #ativacao do sleep
