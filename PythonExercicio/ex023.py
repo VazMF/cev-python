@@ -12,6 +12,4 @@ print(f'Unidade: \033[32m{U}\033[m') #mostrando a unidade
 print(f'Dezena: \033[32m{D}\033[m') #mostrando a dezena
 print(f'Centena: \033[32m{C}\033[m') #mostrando a centena
 print(f'Milhar: \033[32m{M}\033[m') #mostrando o milhar
-print('-' * 23) #fim
-
-
+print('\033[32m-\033[m' * 23) #fim
