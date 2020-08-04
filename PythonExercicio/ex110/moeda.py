@@ -53,3 +53,20 @@ def moeda(preco=0, moeda='R$'):
     """
     return f'{moeda}{preco:.2f}'.replace('.', ',')
 
+
+def resumo(preco=0, taxaA=10, taxaR=5):
+    """
+    -> Mostra na tela as informações geradas pelas funcoes anteriores
+    :param preco: valor do preco
+    :param taxaA: valor da taxa de aumento (padrao 10)
+    :param taxaR: valor da taxa de reducao (padrao 5)
+    """
+    print('-' * 30)
+    print(f'{"RESUMO DO VALOR":^30}')
+    print('-' * 30)
+    print(f'Preço analisado: \t{moeda(preco)}')
+    print(f'Dobro do preço: \t{dobro(preco, True)}')
+    print(f'Metade do preço: \t{metade(preco, True)}')
+    print(f'{taxaA}% de aumento:  \t{aumentar(preco, taxaA, True)}')
+    print(f'{taxaR}% de redução: \t{diminuir(preco, taxaR, True)}')
+    print('-' * 30)
