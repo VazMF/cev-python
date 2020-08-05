@@ -5,6 +5,6 @@ d = int(input('Quilômetros necessários para chegar ao destino: ')) #input de q
 print('\033[33mANALISANDO...\033[m')
 sleep(1)
 if d <= 200: #se a o input for menor ou igual a 200 km o preço por km sera 50 centavos
-    print(f'Para percorrer \033[33m{d}km\033[m, sua passagem custará \033[4;33mR${d*0.50:.2f}\033[m')
+    print(f'Para percorrer \033[33m{d}km\033[m sua passagem custará \033[4;33mR${d*0.50:.2f}\033[m')
 else: #determina que caso a afirmaçao acima não seja verdadeira a conta será feita cobrando 45 centavos por km
-    print(f'Para percorrer \033[33m{d}km\033[m, sua passagem custará \033[4;33mR${d*0.45:.2f}\033[m')
+    print(f'Para percorrer \033[33m{d}km\033[m sua passagem custará \033[4;33mR${d*0.45:.2f}\033[m')
