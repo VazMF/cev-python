@@ -14,4 +14,4 @@ elif idade <= 19: #se a idade for menor ou igual a 19
 elif idade <= 25: #se a idade for menor ou igual a 25
     print('CLASSIFICAÇÃO: \033[36mSÊNIOR\033[m') #print sênior
 else: #caso nenhuma das alternativas acima forem viaveis
-    print('CLASSIFICAÇÃO: \033[36mMASTER\033[m') #print master
+    print('CLASSIFICAÇÃO: \033[36mMASTER\033[m') #print categoria master
