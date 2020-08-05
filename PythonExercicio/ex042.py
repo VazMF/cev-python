@@ -14,4 +14,3 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2: #se r1 for menor que r2 mais 
         print('\033[33mISÓSCELES.\033[m') #print isosceles
 else: #senao
     print('Os segmentos acima \033[31mNÃO PODEM\033[m formar um triângulo.') #nao é possivel formar triangulo
-print('\033[31m=-=\033[m' * 9)
