@@ -1,7 +1,7 @@
 #faça um programa que leia o nome completo de uma pessoa e mostre o primeiro e o segundo nome separadamente
 from time import sleep #impor do sleep
-print('\033[32m---PRIMEIRO E ÚLTIMO NOME---\033[m') #titúlo
-n = str(input('Digite seu nome completo: ')).strip() #input do nome completo na variavel n
+print('\033[32m---------PRIMEIRO E ÚLTIMO NOME---------\033[m') #titúlo
+n = str(input('Nome completo: ')).strip() #input do nome completo na variavel n
 nome = n.split() #variavel que armazena os nomes separados pelo split
 print('\033[32mANALISANDO NOME...\033[m')
 sleep(1)
