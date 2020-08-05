@@ -1,6 +1,6 @@
 #Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 from time import sleep
-print('\033[31m---ANALISADOR DE TRIÂNGULOS---\033[m') #titulo
+print('\033[31m-------------ANALISADOR DE TRIÂNGULOS-----------\033[m') #titulo
 r1 = float(input('Primeiro segmento: ')) #input do comprimento da primeira reta na variavel r1
 r2 = float(input('Segundo segmento: ')) #input do comprimento da segunda reta na variavel r2
 r3 = float(input('Terceiro segmento: ')) #inpur do comprimento da terceira reta na variavel r3
