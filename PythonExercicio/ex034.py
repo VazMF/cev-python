@@ -1,7 +1,7 @@
 #Escreva uma programa que pergunte o sálario de um funcionário e calcule o valor de seu aumento.
 #Para salários superiores a R$1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
 from time import sleep
-print('\033[31m---AUMENTO SALARIAL---\033[m') #titúlo
+print('\033[31m----------------AUMENTO SALARIAL----------------\033[m') #titúlo
 salario = float(input('Qual o valor do salário do funcionário? R$')) #input do salário atual do funcionario na variavel salario
 print('\033[33mPROCESSANDO...\033[m')
 sleep(1)
