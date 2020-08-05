@@ -1,6 +1,6 @@
 #faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade: se ele ainda vai se alistar no serviço militar; se é hpra de se alistar; passou o tempo. seu programa também deverá mostrar o tempo que ou que passou do prazo
 from datetime import date #importa a data atual do computador
-print('\033[33m---ALISTAMENTO MILITAR---\033[m') #titúlo
+print('\033[33m-----------ALISTAMENTO MILITAR-----------\033[m') #titúlo
 nasc = int(input('Ano de nascimento: ')) #input do ano de nascimento na varivel nasc
 atual = date.today().year #variavel atual recebe o ano atual do computador
 idade = atual - nasc #cálculo da idade
