@@ -4,4 +4,4 @@ for c in range(1, 501, 2): #para c no intervalo de 1 ate 500
     if c % 3 == 0: #se o resto da divisao de c por 3 é igual a 0
         cont += 1 #contador recebe contador mais um
         soma += c #soma recebe soma mais c
-print(f'A soma de todos os \033[33m{cont}\033[m valores solicitados é \033[33m{soma}\033[m.') #print formatado com o resultado
+print(f'A soma de todos os \033[32m{cont}\033[m valores solicitados é \033[32m{soma}\033[m.') #print formatado com o resultado
