@@ -21,4 +21,4 @@ def fatorial(num, show=False): #define a função fatorial com os parâmetros nu
 
 #PROGRAMA PRINCPAL
 print(fatorial(5, True)) #print da função fatorial passando o parâmetro num como 5 e o parâmetro show (opcional) como false
-help(fatorial) #função help para exibir a docstring da função criada
+#help(fatorial) #função help para exibir a docstring da função criada
