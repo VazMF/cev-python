@@ -2,7 +2,7 @@
 #gerados também indique o menor e o maior valor que estão na lista.
 from random import randint
 print('-' * 40)
-print(f'{"SORTEIO EM TUPLAS":^40}') #titulo
+print(f'{"MAIOR E MENOR EM TUPLAS":^40}') #titulo
 print('-' * 40)
 num = (randint(1, 10), randint(1, 10), randint(1, 10),
        randint(1, 10), randint(1, 10)) #sorteia 5 valores de 1 a 10 em uma tupla
