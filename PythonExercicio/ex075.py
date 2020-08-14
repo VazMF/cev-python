@@ -1,7 +1,7 @@
 #desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. no final mostre:
 #quantas vezes apareceu o valor 9; em que posição foi digitado o primeiro valor 3; quais foram os números pares.
 print('-' * 40)
-print(f'{"ANALISADOR DE TUPLAS":^40}') #titulo
+print(f'{"-ANALISADOR DE TUPLAS-":^40}') #titulo
 print('-' * 40)
 num = (int(input('Digite um número: ')), int(input('Digite outro número: ')),
        int(input('Digite mais um número: ')), int(input('Digite o último número: '))) #tupla com 4 inputs de numero
