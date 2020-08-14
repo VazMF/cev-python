@@ -1,5 +1,5 @@
 #refaça o ex51. lendo primeiro o termo e a razão de uma PA. mostrando os 10 primeiros termos usando o while.
-print('\033[35m-=-GERADOR-DE-PA-=-\033[m') #titulo
+print('\033[35m-=-=-GERADOR-DE-PA-=-=-\033[m') #titulo
 primeiro = int(input('Primeiro termo: ')) #input do primeiro termo
 razao = int(input('Razão da PA: ')) #input da razão (de quantos em quantos números a pa vai pular)
 termo = primeiro #define termo como o número do input
