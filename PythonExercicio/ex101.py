@@ -12,6 +12,7 @@ def voto(nasc): #define a função voto com o parâmetro nascimento
         return f'VOTO OBRIGATÓRIO.' #retorna a string informando que o voto é obrigatório
 
 #PROGRAMA PRINCIPAL
-print('_' * 30) #print de resultado
+print('-' * 30) #print de resultado
 ano = int(input('Em que ano você nasceu? ')) #input do ano de nascimento do usuário na variavel ano
 print(voto(ano)) #print da função voto com o parâmetro ano
+print('-' * 30) #print de resultado
