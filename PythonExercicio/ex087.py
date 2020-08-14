@@ -1,6 +1,6 @@
 #aprimore o exercicio anterior mostrnado: a soma dos valores pares; a soma dos valores da terceira coluna; o maior valor da segunda linha.
 print('-' * 45)
-print('{:^45}'.format('MATRIZ 2.0'))
+print('{:^45}'.format('-=-= MATRIZ 2.0 =-=-'))
 print('-' * 45)
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 p = 0
