@@ -22,4 +22,4 @@ while True: #loop infinito
 print(f'{" FIM DO PROGRAMA ":-^40}')
 print(f'O total da compra foi R${total:.2f}') #print do total da compra
 print(f'Temos {totmil} produtos custando mais de R$1000') #print da quantidade de produtos que custaram mais de 1000
-print(f'O produto mais barato foi {barato} que custou R${menor:.2f}') #print do produto mais barato e o preço
+print(f'Produto mais barato foi {barato} que custou R${menor:.2f}') #print do produto mais barato e o preço
