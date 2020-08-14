@@ -3,13 +3,13 @@
 from random import randint
 from time import sleep
 print('-' * 36)
-print(f'{"MEGA SENA":^36}') #titulo
+print(f'{"< MEGA SENA >":^36}') #titulo
 print('-' * 36)
 qtd = int(input('Quantos jogos você quer gerar? ')) #input da quantidade de jogos a ser gerada
 tot = 1 #variavel total recebe 1
 lista = list() #inicializa uma lista vazia
 jogos = list() 
-while tot <= qtd: #enquanro o total for menor ou igual o valor da quantidade
+while tot <= qtd: #enquanto o total for menor ou igual o valor da quantidade
     cont = 0 #contador recebe 0
     while True: #looping infinito
         num = randint(1, 60) #randomiza um numero de 1 a 60
