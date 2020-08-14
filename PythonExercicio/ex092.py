@@ -4,7 +4,7 @@
 from datetime import date
 ano = date.today().year
 print('-' * 45)
-print(f'{"CADASTRO DE TRABALHADOR":^45}') #titulo
+print(f'{"-- CADASTRO DE TRABALHADOR --":^45}') #titulo
 print(f'-' * 45)
 dados = dict() #inicializacao de um dicionario dados
 dados['nome'] = str(input('Nome: ')) #input do nome
