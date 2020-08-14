@@ -1,7 +1,7 @@
 #crie um programa onde o usuário possa digitar 7 valores númericos e cadastre-os em uma lista única que mantenha separados os valores pares e impares. Mostre os valores em ordem cresc
 numeros = [[], []] #declaracao da lista com duas listas internas
 print('-' * 40)
-print('{:^40}'.format('PAR E IMPAR')) #titulo
+print(f'{"PAR OU ÍMPAR":^40}') #titulo
 print('-' * 40)
 for c in range(1, 8): #repeticao para ler os sete numeros
     n = int(input(f'Digite o {c}° número: ')) #input do numero
