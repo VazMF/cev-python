@@ -1,7 +1,7 @@
 #faça um programa que jogue par ou ímpar com o computador. o jogo só será interrompido quando o jogador perder. mostrando o total de vitótias consecutivas do jogador.
 from random import randint
 from time import sleep
-print('\033[35m-=-=PAR OU ÍMPAR=5-=-\033[m') #titulo
+print('\033[35m-=-=PAR OU ÍMPAR=-=-\033[m') #titulo
 v = 0 #variavel de vitorias comeca com 0
 while True: #loop infinito
     jogador = int(input('Diga um valor: ')) #input do palpite do jogador
@@ -27,9 +27,9 @@ while True: #loop infinito
             print('Você VENCEU!') #jogador vence
             v += 1 #soma uma vitoria
         else: #senao
-            print('Você PERDEU!') #jogador perde
+            print('GAME OVER!') #jogador perde
             break #interrompe o while
     print('Vamos jogar novamente...') #enquanto o jogador nao perder, o jogo reinicia
     print('-' * 22) #print de resultado
     sleep(2) #sleep para esperar 2s antes de reinicar o loop
-print(f'GAME OVER! Você teve \033[35m{v}\033[m vitórias.') #print quando o jogador perde, mostrando as vitorias
+print(f'Você teve \033[35m{v}\033[m vitórias.') #print quando o jogador perde, mostrando as vitorias
