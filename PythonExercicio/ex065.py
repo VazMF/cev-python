@@ -1,5 +1,5 @@
 #crie um programa que leia vários números inteiros pelo teclado. no final mostre a média entre todos e qual foi o maior e o menor. o programa deve perguntar ao usuário se ele quer ou não continuar a digitar valores.
-print('\033[35m-=-MEDIA, MAIOR E MENOR-=-\033[m') #titulo
+print('\033[35m-=-=-MEDIA, MAIOR E MENOR-=-=-\033[m') #titulo
 resp = 'S' #define a resposta como sim
 media = soma = quant = maior = menor = 0 #determina a media, soma, quantidade, maior e menor como 0
 while resp in 'Ss': #enquanto a resposta estiver em sim faça:
