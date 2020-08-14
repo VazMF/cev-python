@@ -1,6 +1,6 @@
 #crie um programa que leia vários números inteiros pelo teclado. o programa vai parar quando o usuário digitar 999, que é a condição de parada.
 #no final, mostre quantos números foram digitados e qual foi a soma entre eles.
-n = cont = soma = 0 #determina soma, contador e numero como 0
+cont = soma = 0 #determina soma, contador e numero como 0
 n = int(input('Digite um número [999 para parar]: ')) #input do numero
 while n != 999: #enquanto o numero for diferente de 999 faça:
     cont += 1 #some mais um ao contador

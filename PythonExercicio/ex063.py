@@ -1,5 +1,5 @@
 #escreva um programa que leia um número n inteiro qualquer e mostre na tela os n primeiros elementos de uma sequência de Fibonacci.
-print('\033[35m-=-SEQUÊNCIA DE FIBONACCI-=-\033[m') #titulo
+print('\033[35m-=-=-=-SEQUÊNCIA DE FIBONACCI-=-=-=-\033[m') #titulo
 n = int(input('Quantos termos você quer mostrar? ')) #input do número de termos desejado
 t1 = 0 #define o primeiro termo como 1 (regra)
 t2 = 1 #define o segundo termo como 0 (regra)
