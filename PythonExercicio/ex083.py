@@ -1,5 +1,5 @@
 #Crie um programa onde o usuário digite uma expressão qualquer que use parênteses. O app deverá analisar se a expressão passada está com os parênteses abertos e fechados na ordem.
-expr = str(input('Digite a expressão: ')).strip() #input da expressao a ser analisada
+expr = str(input('Digite uma expressão matemática: ')).strip() #input da expressao a ser analisada
 lista = list() #inicializacao de uma lista vazia
 for simb in expr: #repeat para cada simbolo em expressao
     if simb == '(': #se o simbolo for um parenteses abrindo
