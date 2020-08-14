@@ -11,3 +11,4 @@ num = int(input('Digite um número de 0 a 20: ')) #input do numero
 while num < 0 or num > 20: #enquanto numero for menor que 0 ou maior que 20
     num = int(input('ERRO. Digite um número de 0 a 20: ')) #mostra o erro e pede o input
 print(f'Você digitou o número {(contagem[num].upper())}.') #print formatado com o numero na tupla de acordo com o indice
+print('=' * 30)
