@@ -5,7 +5,7 @@ galera = list() #inicializa uma lista vazia
 pessoa = dict() #inicializa um dicionario vazio
 soma = 0 #variavel soma recebe 0
 print('-' * 40)
-print(f'{"CADASTRO DE PESSOAS":^40}') #titulo
+print(f'{">> CADASTRO DE PESSOAS <<":^40}') #titulo
 print('-' * 40)
 while True: #looping infinito
     pessoa['nome'] = str(input('Nome: ')) #input do nome no dicionario no indice nome
