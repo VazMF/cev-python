@@ -25,3 +25,4 @@ while True: #loop infinito
             break #interrompe o while
 print('=' * 40) #print de resultado
 print('Volte sempre e tenha um BOM DIA!') #mensagem
+print('=' * 40)
