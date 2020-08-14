@@ -33,4 +33,4 @@ print(f'Agora é a sua vez, personalize a contagem!') #print informando para o u
 inicio = int(input('Início: ')) #input do valor de inicio da contagem
 fim = int(input('Fim: ')) #input do valor do fim da contagem
 passo = int(input('Passo: ')) #input do valor do passo da contagem
-contador(inicio, fim, passo) #chamada da função contador pasando os parâmetros lidos
+contador(inicio, fim, passo) #chamada da função contador pasando os parâmetros
