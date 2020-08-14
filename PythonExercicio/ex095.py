@@ -1,7 +1,7 @@
 #Aprimore o desafio 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização
 #de detalhes do aproveitamento de cada jogador.
 print('-' * 50)
-print(f'{"CADASTRO JOGADOR DE FUTEBOL 2.0":^50}') #titulo
+print(f'{">>> CADASTRO JOGADOR DE FUTEBOL 2.0 <<<":^50}') #titulo
 print('-' * 50)
 jogador = dict() #cria um dicionario
 partidas = list() #cria uma lista
