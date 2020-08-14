@@ -22,7 +22,7 @@ def maior(* num): #define a função com valores indeterminados
 #chamadas da função maior passando os parâmetros
 maior(2, 9, 4, 5, 7, 1) 
 maior(4, 7, 0, 8)
-maior(1, 2, 5)
+maior(1, 3, 5)
 maior(6, 1)
 maior(9)
 maior()
