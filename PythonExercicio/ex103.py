@@ -4,7 +4,7 @@ def ficha(nome = '<desconhecido>', gols = 0): #define a função ficha com parâ
     print(f'O jogador {nome} fez {gols} gol(s) no campeonato') #print informando o nome do jogador e a quantidade de gols
 
 
-#PROGRAMA PRINCIPAL
+#PRINCIPAL
 print('-' * 45)
 n = str(input('Nome do Jogador: ')) #input do nome do jogador na variavel n
 g = str(input('Quantidade de gols: ')) #input da quantidade de gols como string na variavel g para poder deixa vazio caso necessário
