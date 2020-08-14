@@ -1,7 +1,7 @@
 #Faça um programa que leia o nome e média de um aluno, guardando também a siatuação em um dicionário.
 #No final, mostre o conteúdo da estrutura na tela. > 7 aprovado
 print('-' * 35)
-print(f'{"APROVADO OU REPROVADO":^35}') #titulo
+print(f'{"< APROVADO OU REPROVADO >":^35}') #titulo
 print('-' * 35)
 aluno = dict() #inicializa um dicionario de alunos
 aluno['nome'] = str(input('Nome do aluno(a): ')) #input do nome do aluno 
