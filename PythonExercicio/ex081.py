@@ -1,6 +1,6 @@
 #Crie um programa que val ler vários números e colocar em uma lista. Depois mostre: a)quanros numeros foram digitados; b)a lista ordenada decrescente; c)se o valor 5 foi digitado.
 print('-' * 45)
-print(f'{"ADD NÚMEROS":^45}') #titulo
+print(f'{"- ADD NÚMEROS -":^45}') #titulo
 print('-' * 45)
 lista = list() #inicia lista vazia
 while True: #looping infinito
