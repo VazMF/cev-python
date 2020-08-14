@@ -1,5 +1,5 @@
 #melhore o ex061, perguntando ao usuário se ele quer mostrar mais alguns termos. O programa encerra quando ele disser que quer mostrar 0 termos.
-print('\033[35m-=-GERADOR-DE-PA-=-\033[m') #titulo
+print('\033[35m-=-=-=-GERADOR-DE-PA=-=--=-\033[m') #titulo
 primeiro = int(input('Primeiro termo: ')) #input do primeiro termo
 razao = int(input('Razão da PA: ')) #input da razão
 termo = primeiro #variavel termo recebe o conteudo da variavel primeiro
