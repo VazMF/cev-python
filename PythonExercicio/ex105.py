@@ -25,6 +25,6 @@ def notas(* n, sit=False): #define a função notas com um numero indeterminado 
 
 
 #PROGRAMA PRINCIPAL
-resp = notas(5.5, 2.5, 1.5, sit=True) #variavel resposta recebe a função notas com os parâmetros
+resp = notas(7.5, 8.5, 1.5, sit=True) #variavel resposta recebe a função notas com os parâmetros
 print(resp) #print o conteúdo da variável resposta
 help(notas) #função help para ver a docstring da função criada
