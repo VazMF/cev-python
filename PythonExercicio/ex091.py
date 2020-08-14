@@ -4,7 +4,7 @@ from random import randint
 from time import sleep
 from operator import itemgetter
 print('-' * 30)
-print(f'{"JOGO DOS DADOS":^30}') #titulo
+print(f'{"< JOGO DOS DADOS >":^30}') #titulo
 print('-' * 30)
 jogadas = {'jogador1': randint(1, 6), 'jogador2': randint(1, 6),
            'jogador3': randint(1, 6), 'jogador4': randint(1, 6)} #dicionario com 4 jogadores e cada jogador randomiza um numero de 1 a 6
