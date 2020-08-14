@@ -9,7 +9,7 @@ for p in range(1, 5): #repeticao de 1 ate 4
     if p == 1 and sexo in 'Mm': #se for a primeira repeticao e sexo for masculino
         maioridadehomem = idade #maioridadehomem recebe a idade informada
         nomevelho = nome #nomevelho recebe o nome informado
-    if sexo in 'Mn' and idade > maioridadehomem: #se sexo for masculino e a idade for maior que a maioridadehomem
+    if sexo in 'Mm' and idade > maioridadehomem: #se sexo for masculino e a idade for maior que a maioridadehomem
         maioridadehomem = idade #maioridadehomem recebe a nova idade informada
         nomevelho = nome #nomevelho recebe o novo nome informado
     if sexo in 'Ff' and idade < 20: #se sexo for feminino e a idade for menor que 20
