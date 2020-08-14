@@ -2,7 +2,7 @@
 #quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada partida. No final, tudo isso será
 #guardado em um dicionário, incluindo o total de gols feitos durante o campeonato.
 print('-' * 50)
-print(f'{"CADASTRO JOGADOR DE FUTEBOL":^50}') #titulo
+print(f'{"< CADASTRO JOGADOR DE FUTEBOL >":^50}') #titulo
 print('-' * 50)
 jogador = dict() #inicializa um dicionario
 partidas = list() #inicializa um lista
