@@ -4,7 +4,7 @@ cadastros = list() #inicializa uma lista vazia de cadastros
 dados = list() #inicializa uma lista vazia de dados
 maior = menor = 0 #inicializa as variaveis maior e menor como zero
 print('-' * 45)
-print(f'{"ANALISADOR DE PESOS":^45}') #titulo
+print(f'{"-- ANALISADOR DE PESOS --":^45}') #titulo
 while True: #looping infinito
     print('-' * 45) #print para resultado
     dados.append(str(input('Nome: '))) #input do nome na lista de dados
