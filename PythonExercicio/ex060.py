@@ -1,5 +1,5 @@
 #faça um programa que leia um número qualquer e mostre seu fatorial
-print('\033[31m-=-=FATORIAL=-=-\033[m') #titulo
+print('\033[33m-=-=-=-=-=-=-=-=-=-=-=FATORIAL=-=-=-=-=-=-=-=-=-=-=-\033[m') #titulo
 num = int(input('Digite um número para calcular seu fatorial: ')) #input do número desejado
 c = num #define o contador como o num inserido no input
 f = 1 #fatorial é definido como 1
@@ -10,4 +10,4 @@ while c > 0: #enquanto o contador for maior que 0
     f = f * c #fatorial é definido como f * c
     c -= 1 #contador é contador - 1
 print(f'\033[33m{f}\033[m') #resultado do fatorial
-print('\033[31m=\033[m' * 16)
+print('\033[33m-\033[m' * 52)
