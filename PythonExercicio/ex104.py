@@ -15,5 +15,5 @@ def leiaInt(msg): #define a função leiaInt com o parâmetro msg
     return valor #retorna o valor
 
 #PROGRAMA PRINCIPAL
-n = leiaInt('Digite um número: ') #n recebe a função leiaInt
+n = leiaInt('Informe um número: ') #n recebe a função leiaInt
 print(f'Você acabou de digitar o número {n}.') #print formatado informando o número digitado
