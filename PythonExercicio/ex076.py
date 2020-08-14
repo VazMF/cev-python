@@ -1,7 +1,7 @@
 #crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência.
 #no final, mostre uma listagem de preços organizado os dados em forma tabular.
 print('=' * 40)
-print(f'{"LISTAGEM DE PREÇOS":^40}') #titulo
+print(f'{"~ LISTAGEM DE PREÇOS ~":^40}') #titulo
 print('=' * 40)
 listagem = ('Lápis', 1.75,
             'Borracha', 2,
