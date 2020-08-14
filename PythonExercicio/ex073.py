@@ -1,7 +1,7 @@
 #crie uma tupla preenchida com os 20 primeiros colocados da tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. depois mostre:
 #apenas os 5 primeiros; os últimos 4 colocados; uma lista com os timer em ordem alfabética; em que posição na tabela está o time da chapecoense.
 print('' * 30)
-print(f'{" BRASILEIRÃO 2019":^30 }') #titulo
+print(f'{"BRASILEIRÃO 2019":^30}') #titulo
 print('=' * 30)
 times = ('Flamengo', 'Santos', 'Pelmeiras', 'Grêmio',
          'Athletico-PR', 'São Paulo', 'Internacional',
