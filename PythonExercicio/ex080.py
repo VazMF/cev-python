@@ -1,4 +1,5 @@
 #Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista. já na posição correta de inserção (sem usar sort()). Mostrar lista ordenada.
+print('-' * 30)
 numList = [] #inicia uma lista vazia
 for c in range(0, 5): #repeat 5 vezes para ler os números
     num = int(input("Digite um número: ")) #input dos números
