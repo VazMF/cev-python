@@ -1,5 +1,5 @@
 #Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
-print('\033[31m===NÚMEROS=PRIMOS===\033[m') #titulo
+print('\033[33m=========NÚMEROS=PRIMOS=========\033[m') #titulo
 num = int(input('Digite um número: ')) #input do numero que vai ser analisado na variavel num
 tot = 0 #inicializacao da variavel total com 0
 for c in range(1, num + 1): #repeticao comecando em 1 e indo ate o numero inserido no input pelo usuario
