@@ -11,4 +11,3 @@ def escreva(txt): #função com parametro para texto
 escreva('Fuck this love calling my name, get out of my veins') #usando a função escreva 
 escreva('No reasons to stay, is a good reason to go')
 escreva('No crying in the club')
-escreva('Cry for me')
