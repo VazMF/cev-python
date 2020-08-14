@@ -1,7 +1,7 @@
 #crie um programa que leia dois valores e mostre na tela um menu: 1 = somar, 2 = multiplicar, 3 = maior, 4 = novos números, 5 = sair do programa
 # eu programa deverá realizar a operação solicitada em cada caso.
 from time import sleep #import do sleep
-print('\033[35m=-=\033[m' * 10)
+print('\033[35m=-=\033[m' * 15)
 n1 = int(input('Primeiro valor: ')) #lê o primeiro valor
 n2 = int(input('Segundo valor: ')) #lê o segundo valor
 opcao = 0 #determina a opção como 0
@@ -35,6 +35,6 @@ while opcao != 5: #determina que enquanto a opção for diferente de 5 o while v
         print('Finalizando...') #finaliza o programa fechando o while
     else: #se o número digitado na opção não for nenhum dos definidos
         print('Opção inválida. Tente novamente.') #erro
-    print('\033[35m=-=\033[m' * 10)
+    print('\033[35m=-=\033[m' * 15)
     sleep(1) #sleep para o programa dormir antes do while acontecer novamente
 print('Fim do programa, volte sempre!') #mensagem de fim
