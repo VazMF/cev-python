@@ -1,5 +1,5 @@
 #Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
-print('\033[31m===DETECTOR=DE=PALÍNDROMO===\033[m') #titulo
+print('\033[33m===========DETECTOR=DE=PALÍNDROMO===========\033[m') #titulo
 frase = str(input('Digite uma frase: ')).strip().upper() #lê a frase, tira os espaços e joga ela pra maisuculas
 palavras = frase.split() #split na frase, separando palavra por palavra
 junto = ''.join(palavras) #junta tudo numa string
