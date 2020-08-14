@@ -1,6 +1,6 @@
 #Crie um programa que leia vários valores e coloque-os em uma lista. Depois, crie duas listas extras que vão conter apenas valores pares e os valores impares. Ao final print tudo.
 print('-' * 40)
-print(f'{"LISTA PAR OU ÍMPAR":^40}') #titulo
+print(f'{"= LISTA PAR OU ÍMPAR =":^40}') #titulo
 print('-' * 40)
 lista = list() #inicializacao da lista principal
 listaPar = list() #inicializacao da lista de pares
