@@ -9,9 +9,10 @@ def area(l, c): #função area com dois parâmetros
 #programa principal
 #titulo
 print('~' * 45)
-print(f'{"CONTROLE DE TERRENOS":^45}')
+print(f'{"< CONTROLE DE TERRENOS >":^45}')
 print('~' * 45)
 #variaveis
 largura = float(input('Informe a lagura do terreno [m]: ')) #var para ler a largura do tereno em metros
 altura = float(input('Informe a comprimento do terreno [m]: ')) #var para ler a altura do terreno em metros
 area(largura, altura) #chamada da função area
+print('~' * 45)
