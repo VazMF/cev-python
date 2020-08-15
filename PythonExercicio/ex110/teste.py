@@ -1,4 +1,4 @@
 import moeda
 
-p = float(input('Digite um preço: R$'))
+p = float(input('Digite o preço: R$'))
 moeda.resumo(p, 20, 12)
