@@ -1,4 +1,4 @@
-import moeda
+from PythonExercicio.ex107 import moeda
 
 p = float(input('Digite o preço: R$'))
 print(f'A metade de R${p} é {moeda.metade(p)} ')
