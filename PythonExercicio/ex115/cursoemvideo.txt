@@ -1,0 +1,7 @@
+Ana;18
+Eduardo;19
+Danielle;19
+Vinicius;18
+Rafael;20
+Maria;18
+Hemerson;40
