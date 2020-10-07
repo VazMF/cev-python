@@ -9,7 +9,7 @@ if not arqExiste(arq):
 
 
 while True:
-    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoas', 'Sair do sistema'])
+    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do sistema'])
     if resposta == 1:
         #opcao para listas o conteudo de um arquivo txt
         lerArquivo(arq)
